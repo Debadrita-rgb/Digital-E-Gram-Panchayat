@@ -254,7 +254,7 @@ The Gram Panchayat Digital Portal revolutionizes local governance with:
 ✅ Multilingual and mobile-ready design
 
 🔗 Explore More
-💻 Live Demo: [Add link here]
+💻 Live Demo: (https://github.com/Debadrita-rgb/Digital-E-Gram-Panchayat)
 
 🗂️ Source Code: GitHub Repo
 
