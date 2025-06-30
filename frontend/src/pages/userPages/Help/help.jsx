@@ -43,90 +43,10 @@ const Help = () => {
             user with visual disability can access this website using assistive
             technology such as a screen reader. Users with low vision can use
             high contrast and font size increase options.
-            <br />
-            <br />
-            This website meets level{" "}
-            <strong>
-              AA of the Web Content Accessibility Guidelines (WCAG) 2.0
-            </strong>{" "}
-            laid down by the World Wide Web Consortium (W3C).
-            <br />
-            <br />
+            <br /><br />
             If you have any problem or suggestion regarding the accessibility of
             this Site, please send a feedback to us.
           </p>
-        </section>
-
-        {/* Screen Reader Access */}
-        <section>
-          <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">
-            Screen Reader Access
-          </h2>
-          <p>
-            Our visitors with visual impairments can access the site using
-            Assistive Technologies, such as screen readers.
-          </p>
-
-          <div className="overflow-x-auto mt-4">
-            <table className="min-w-full border border-gray-300 dark:border-gray-700 text-sm">
-              <thead className="bg-gray-200 dark:bg-gray-800">
-                <tr>
-                  <th className="p-2 border">Screen Reader</th>
-                  <th className="p-2 border">Website</th>
-                  <th className="p-2 border">Free / Commercial</th>
-                </tr>
-              </thead>
-              <tbody>
-                {[
-                  [
-                    "Screen Access For All (SAFA)",
-                    "https://lists.sourceforge.net/lists/listinfo/safa-developer",
-                    "Free",
-                  ],
-                  [
-                    "Non Visual Desktop Access (NVDA)",
-                    "http://www.nvda-project.org",
-                    "Free",
-                  ],
-                  ["System Access To Go", "http://www.satogo.com", "Free"],
-                  ["Thunder", "http://www.webbie.org.uk/thunder", "Free"],
-                  [
-                    "WebAnywhere",
-                    "http://webinsight.cs.washington.edu/",
-                    "Free",
-                  ],
-                  [
-                    "Hal",
-                    "http://www.yourdolphin.co.uk/productdetail.asp?id=5",
-                    "Commercial",
-                  ],
-                  [
-                    "JAWS",
-                    "http://www.freedomscientific.com/Downloads/JAWS",
-                    "Commercial",
-                  ],
-                  [
-                    "Supernova",
-                    "http://www.yourdolphin.co.uk/productdetail.asp?id=1",
-                    "Commercial",
-                  ],
-                ].map(([name, url, type], i) => (
-                  <tr
-                    key={i}
-                    className="border-t border-gray-300 dark:border-gray-700"
-                  >
-                    <td className="p-2 border">{name}</td>
-                    <td className="p-2 border text-blue-500 hover:underline">
-                      <a href={url} target="_blank" rel="noreferrer">
-                        {url}
-                      </a>
-                    </td>
-                    <td className="p-2 border">{type}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
         </section>
 
         {/* Viewing Files */}

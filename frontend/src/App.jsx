@@ -48,6 +48,10 @@ import AdmineditGallery from "./pages/adminPages/Gallery/editGallery.jsx";
 import AdminPartner from "./pages/adminPages/Partner/viewPartner.jsx";
 import AdminAddPartner from "./pages/adminPages/Partner/addPartner.jsx";
 
+//Slider
+import AdminSlider from "./pages/adminPages/Slider/viewSlider.jsx";
+import AdminAddSlider from "./pages/adminPages/Slider/addSlider.jsx";
+
 //User Page frontend
 import UserHomePage from "./pages/userPages/Index/Index";
 import SignUp from "./pages/userPages/signUp/signUp";
@@ -164,6 +168,10 @@ function App() {
               {/* Partner  */}
               <Route path="view-all-partner" element={<AdminPartner />} />
               <Route path="add-partner" element={<AdminAddPartner />} />
+              {/* Slider  */}
+              <Route path="view-all-slider" element={<AdminSlider />} />
+              <Route path="add-slider" element={<AdminAddSlider />} />
+
               <Route path="category-form/:catId" element={<FormEditorPage />} />
               {/* Application Show */}
               <Route

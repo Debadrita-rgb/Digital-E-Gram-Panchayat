@@ -48,8 +48,8 @@ export default function Example() {
       href: "/admin/view-all-application",
       current:
         location.pathname.startsWith("/admin/view-all-application") ||
-        location.pathname.startsWith("/admin/add-services") ||
-        location.pathname.startsWith("/admin/edit-services"),
+        location.pathname.startsWith("/admin/add-application") ||
+        location.pathname.startsWith("/admin/edit-application"),
     },
     {
       name: "User",
@@ -76,13 +76,19 @@ export default function Example() {
           href: "/admin/view-all-partner",
           current:
             location.pathname.startsWith("/admin/view-all-partner") ||
-            location.pathname.startsWith("/admin/add-partner") ||
-            location.pathname.startsWith("/admin/edit-partner"),
+            location.pathname.startsWith("/admin/add-partner"),
+        },
+        {
+          name: "Slider",
+          href: "/admin/view-all-slider",
+          current:
+            location.pathname.startsWith("/admin/view-all-slider") ||
+            location.pathname.startsWith("/admin/add-slider"),
         },
         {
           name: "Contact",
           href: "/admin/view-contact",
-          current: location.pathname.startsWith("/admin/view-contactr"),
+          current: location.pathname.startsWith("/admin/view-contact"),
         },
         {
           name: "Feedback",

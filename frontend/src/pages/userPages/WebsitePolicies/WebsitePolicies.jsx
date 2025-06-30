@@ -42,19 +42,19 @@ const WebsitePolicies = () => {
             PRIVACY POLICY
           </h2>
           <p>
-            MoPR-Website does not automatically capture any specific personal
+            Digital E-Gram Panchayat-Website does not automatically capture any specific personal
             information from you, (like name, phone number or e-mail address),
             that allows us to identify you individually.
             <br />
             <br />
-            If the MoPR-Website requests you to provide personal information,
+            If the Digital E-Gram Panchayat-Website requests you to provide personal information,
             you will be informed for the particular purposes for which the
             information is gathered and adequate security measures will be taken
             to protect your personal information.
             <br />
             <br />
             We do not sell or share any personally identifiable information
-            volunteered on the MoPR-Website to any third party (public/private).
+            volunteered on the Digital E-Gram Panchayat-Website to any third party (public/private).
             Any information provided to this website will be protected from
             loss, misuse, unauthorized access or disclosure, alteration, or
             destruction.
@@ -81,7 +81,7 @@ const WebsitePolicies = () => {
           <p>
             <strong>Links to external websites/portals:</strong> At many places
             in this website, you shall find links to other websites/portals.
-            These links have been placed for your convenience. MoPR is not
+            These links have been placed for your convenience. Digital E-Gram Panchayat is not
             responsible for the contents and reliability of the linked websites
             and does not necessarily endorse the views expressed in them. Mere
             presence of the link or its listing on this website should not be
@@ -92,14 +92,14 @@ const WebsitePolicies = () => {
             have no control over the availability of linked pages.
             <br />
             <br />
-            <strong>Links to MoPR Website by other websites/portals:</strong> We
+            <strong>Links to Digital E-Gram Panchayat Website by other websites/portals:</strong> We
             do not object to linking directly to the information that is hosted
-            on MoPR’s site but it is necessary that prior permission is taken
+            on Digital E-Gram Panchayat’s site but it is necessary that prior permission is taken
             before hyperlinks are directed from any website to this site.
             Permission for the same, stating the nature of the content on the
             pages from where the link has to be given and the exact language of
             the hyperlink should be obtained by sending a request to
-            ‘epanchayat_mopr@googlegroups.com’.
+            ‘epanchayat_digital e-gram panchayat@googlegroups.com’.
             <br />
             <br />
             Also, it is not permitted that our pages be loaded into frames on
@@ -115,15 +115,15 @@ const WebsitePolicies = () => {
           </h2>
           <p>
             Website is designed & hosted by National Informatics Centre,
-            Contents provided by MoPR. Though all efforts have been made to
+            Contents provided by Digital E-Gram Panchayat. Though all efforts have been made to
             ensure the accuracy and currency of the content on this website, the
             same should not be construed as a statement of law or used for any
             legal purposes.
             <br />
             <br />
             In case of any ambiguity or doubts, users are advised to
-            verify/check with the MoPR and/or other source(s), and to obtain
-            appropriate professional advice. Under no circumstances will MoPR be
+            verify/check with the Digital E-Gram Panchayat and/or other source(s), and to obtain
+            appropriate professional advice. Under no circumstances will Digital E-Gram Panchayat be
             liable for any expense, loss or damage including, without
             limitation, indirect or consequential loss or damage, or any
             expense, loss or damage whatsoever arising from use, or loss of use,
@@ -139,17 +139,17 @@ const WebsitePolicies = () => {
             <br />
             The information posted on this website could include hypertext links
             or pointers to information created and maintained by non-Government
-            / private organisations. MoPR is providing these links and pointers
+            / private organisations. Digital E-Gram Panchayat is providing these links and pointers
             solely for your information and convenience.
             <br />
             <br />
             When you select a link to an outside website, you are leaving the
-            MoPR website and are subject to the privacy and security policies of
-            the owners/sponsors of the outside website. MoPR does not guarantee
-            the availability of such linked pages at all times. MoPR cannot
+            Digital E-Gram Panchayat website and are subject to the privacy and security policies of
+            the owners/sponsors of the outside website. Digital E-Gram Panchayat does not guarantee
+            the availability of such linked pages at all times. Digital E-Gram Panchayat cannot
             authorise the use of copyrighted materials contained in linked
             websites. Users are advised to request such authorisation from the
-            owner of the linked website. MoPR does not guarantee that linked
+            owner of the linked website. Digital E-Gram Panchayat does not guarantee that linked
             websites comply with Indian Government Web Guidelines.
           </p>
         </section>
@@ -160,18 +160,18 @@ const WebsitePolicies = () => {
             DISCLAIMER
           </h2>
           <p>
-            This website of the MoPR is being maintained for information
+            This website of the Digital E-Gram Panchayat is being maintained for information
             purposes only. Even though every effort is taken to provide accurate
             and up to date information, officers making use of the circulars
-            posted on the website are advised to get in touch with the MoPR
+            posted on the website are advised to get in touch with the Digital E-Gram Panchayat
             whenever there is any doubt regarding the correctness of the
             information contained therein.
             <br />
             <br />
             In the event of any conflict between the contents of the circulars
-            on the website and the hard copy of the circulars issued by MoPR,
+            on the website and the hard copy of the circulars issued by Digital E-Gram Panchayat,
             the information in the hard copy should be relied upon and the
-            matter shall be brought to the notice of the MoPR.
+            matter shall be brought to the notice of the Digital E-Gram Panchayat.
           </p>
         </section>
       </div>

@@ -16,7 +16,7 @@ const ProfileDetails = require("../models/profileDetails");
 const Notification = require("../models/Notification");
 const Contact = require("../models/Contact");
 const Feedback = require("../models/Feedback");
-
+const Slider = require("../models/slider");
 
 //get total main category
 router.get(`/get-maincategory`, jwtAuthMiddleware, async (req, res) => {
@@ -362,5 +362,6 @@ generateCRUDRoutes("gallery", Gallery);
 generateCRUDRoutes("partner", Partner);
 generateCRUDRoutes("contact", Contact);
 generateCRUDRoutes("feedback", Feedback);
+generateCRUDRoutes("slider", Slider);
 
 module.exports = router;

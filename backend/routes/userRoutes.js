@@ -16,6 +16,7 @@ const FormSubmission = require("../models/formSubmission");
 const Notification = require("../models/Notification")
 const Contact = require("../models/Contact");
 const Feedback = require("../models/Feedback");
+const Slider = require("../models/slider");
 
 const otpStore = {};
 
@@ -24,6 +25,18 @@ router.get(`/get-maincategory`, async (req, res) => {
     const items = await serviceCategory
       .find({ undercategory: 0 })
       .sort({ createdAt: -1 });
+    res.json(items);
+  } catch (error) {
+    console.error("Server Error:", error);
+    res.status(500).json({ error: "Failed to fetch items" });
+  }
+});
+
+router.get(`/get-slider`, async (req, res) => {
+  try {
+    const items = await Slider.find({ isActive: true }).sort({
+      createdAt: -1,
+    });
     res.json(items);
   } catch (error) {
     console.error("Server Error:", error);
