@@ -403,11 +403,15 @@ const viewProfile = () => {
                     </label>
                     <input
                       type="text"
-                      placeholder="Text"
+                      placeholder="Identification Number"
                       value={entry.text}
                       onChange={(e) =>
                         handleDocumentChange(index, "text", e.target.value)
                       }
+                      minLength={entry.title === "Aadhar" ? 12 : undefined}
+                      maxLength={entry.title === "Aadhar" ? 12 : undefined}
+                      required
+                      pattern={entry.title === "Aadhar" ? "\\d{12}" : undefined}
                       className="px-4 py-2 border rounded shadow-sm w-full bg-white dark:bg-gray-700 dark:border-gray-600 dark:text-white"
                     />
                   </div>
